@@ -110,3 +110,33 @@ aside ul li
     border-bottom: 1px solid #ccc;
     transition: .3s;
 }
+footer
+{
+    grid-area: footer;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 4px 4px 0px 0px;
+}
+@media(max-width:900px)
+{
+    .container
+    {
+        margin: 0px;
+
+    }
+}
+@media(max-width:600px)
+{
+    .container
+    {   
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "header header header header"
+        "main main main aside"
+        "footer footer footer footer";
+    }
+}
