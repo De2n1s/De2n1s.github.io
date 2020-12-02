@@ -29,12 +29,12 @@ nav
     border-radius: 4px;
     margin-bottom: 20px;
 }
-nav ul li
+nav>ul>li
 {
     text-decoration: none;
     list-style: none;
 }
-nav ul li a
+nav>ul>li>a
 {
     display: block;
     color: #fff;
@@ -44,7 +44,7 @@ nav ul li a
     font-weight: bold;
     transition: .5s;   
 }
-nav ul
+nav>ul
 {
     display: flex;
     justify-content: flex-end;
@@ -57,15 +57,23 @@ nav ul li a.active
     background-color:rgb(86, 193, 213);
     color: #000;
 }
+.cim
+{
+    margin-top: 30px;
+}
 h1
 {
     text-align: center;
+    margin: 0px;
 } 
-.fokep
+h2
 {
-    width:1600px;
-    height: 400px;
-    background-image: url(../IMG/kep2.jpg);
+    margin: 0px;
+}
+.fokep>img
+{
+    display: flex;
+    width: 1570px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:fixed;
@@ -82,7 +90,7 @@ h1
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     text-align: center;
   }
-  .kockak p
+  .kockak>p
   {
     background-color:  #262626;
     color: white;
@@ -108,22 +116,40 @@ h1
         font-weight: bold;
         background-color: black;
         color: white;
-        border-radius: 4px 4px 0px 0px; 
+        border-radius: 4px 4px 0px 0px;
+        margin-top: 30px; 
     }
-  @media (max-width:900px){
+  @media (max-width:900px)
+  {
     .container
     {
         margin: 0px 20px;
     }
-    .fokep{
+    .fokep>img{
       flex: 100%;
-      max-width: 600px;
+      max-width: 650px;
+    }
+    .kockak{
+        flex: 100%;
+        max-width: 650px;
+        max-height: 450px;
+    }
+  }
+  @media(max-width:600px)
+{
+    .container
+    {
+        margin: 0px 20px;
+    }
+    .fokep>img
+    {
+      flex: 100%;
+      max-width: 500px;
     }
     .kockak{
         flex: 100%;
         max-width: 600px;
         max-height: 400px;
     }
-  }
-  
+}
          
