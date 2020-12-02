@@ -97,5 +97,30 @@ h1
       height: 150px;
       margin: 25px 80px;
   }
-
+  .footer
+    {
+        width: 1900px;
+        height: 65px;
+        text-align: center;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        border-radius: 4px 4px 0px 0px; 
+    }
+  @media (max-width:900px){
+    .container
+    {
+        margin: 0px 20px;
+    }
+    .fokep{
+      flex: 100%;
+      max-width: 600px;
+    }
+    .kockak{
+        flex: 100%;
+        max-width: 600px;
+        max-height: 400px;
+    }
+  }
+  
          
