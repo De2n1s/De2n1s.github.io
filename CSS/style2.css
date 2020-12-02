@@ -17,4 +17,58 @@ body{
     flex-wrap: wrap;
   }
 
+  .logo img
+  {
+      width:140px;
+  }
+nav
+{
+    width: 100%;
+    margin-top: 5px;
+    transition: .5s;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+nav ul li
+{
+    text-decoration: none;
+    list-style: none;
+}
+nav ul li a
+{
+    display: block;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: .5s;   
+}
+nav ul
+{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #262626;
+    border-radius: 4px;
+}
+nav ul li a:hover,
+nav ul li a.active
+{
+    background-color:rgb(86, 193, 213);
+    color: #000;
+}
+h1
+{
+    text-align: center;
+} 
+.fokep
+{
+    width:1600px;
+    height: 400px;
+    background-image: url(../IMG/kep2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:fixed;
+}
+
          
