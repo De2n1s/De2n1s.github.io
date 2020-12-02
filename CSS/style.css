@@ -24,11 +24,12 @@ img
 }
 .logo img
 {
-    width: 70px;
+    width:140px;
 }
 body
 {
     background: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .container
 {
@@ -47,10 +48,11 @@ header
     position: relative;
     background-color: #fff;
     padding: 5px 20px;
+   
 }
 .fokep img
 {
-    height: 500px;
+    height: 25%;
 }
 nav
 {
@@ -80,7 +82,7 @@ nav ul
 nav ul li a:hover,
 nav ul li a.active
 {
-    background-color: #ff0;
+    background-color:rgb(86, 193, 213);
     color: #000;
 }
 main
@@ -91,7 +93,7 @@ main .post
 {
     margin: 20px;
     padding: 30px;
-    background-color: #f1f1f1;
+    background-color: rgba(86, 194, 213, 0.575);
 }
 aside
 {
@@ -101,7 +103,7 @@ aside
 }
 aside ul
 {
-    background-color: #f1f1f1;
+    background-color:rgba(255, 20, 145, 0.575);
     padding: 20px;
 }
 aside ul li
@@ -109,6 +111,14 @@ aside ul li
     padding: 8px;
     border-bottom: 1px solid #ccc;
     transition: .3s;
+}
+.letoltes
+{
+    background-color: #262626;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+    border: solid 1px black;
 }
 footer
 {
@@ -132,11 +142,12 @@ footer
 {
     .container
     {   
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto;
         grid-template-areas: 
-        "header header header header"
-        "main main main aside"
-        "footer footer footer footer";
+        "header header header"
+        "main main main"
+        "aside aside aside"
+        "footer footer footer";
     }
 }
