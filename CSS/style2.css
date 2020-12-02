@@ -70,5 +70,32 @@ h1
     background-size: cover;
     background-position:fixed;
 }
+  .kockak
+  {
+    background: #50A7FF;
+    position: relative;
+    flex: 1;
+    max-width: 600px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .kockak p
+  {
+    background-color:  #262626;
+    color: white;
+    padding: 10px;
+    margin: 0px 100px;
+    border:solid 1px black;
+  }
+
+  .kockak img
+  {
+      width: 300px;
+      height: 150px;
+      margin: 25px 80px;
+  }
 
          
